@@ -216,6 +216,89 @@
                 opacity: 0;
             }
         }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .eid-card {
+                width: 350px;
+                height: 450px;
+            }
+        
+            .card-front h1 {
+                font-size: 3em;
+            }
+        
+            .mosque-icon {
+                width: 70px;
+            }
+        
+            .decoration {
+                font-size: 2em;
+            }
+        
+            input, button {
+                padding: 10px;
+                font-size: 14px;
+            }
+        
+            .announcement {
+                font-size: 0.8em;
+                padding: 10px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+        
+            .card-container {
+                margin-top: 20px;
+            }
+        
+            .eid-card {
+                width: 90%;
+                height: auto;
+                min-height: 500px;
+            }
+        
+            .card-front, .card-back {
+                padding: 20px;
+            }
+        
+            .card-front h1 {
+                font-size: 2.5em;
+                margin: 10px 0;
+            }
+        
+            .mosque-icon {
+                width: 60px;
+            }
+        
+            .decoration {
+                font-size: 1.8em;
+                margin: 10px 0;
+            }
+        
+            input, button {
+                padding: 8px;
+                font-size: 13px;
+            }
+        
+            button {
+                margin-top: 5px;
+            }
+        
+            .announcement {
+                font-size: 0.7em;
+                padding: 8px;
+            }
+        }
+        
+        @media (max-height: 600px) {
+            .eid-card {
+                transform: scale(0.9);
+            }
+        }
     </style>
 </head>
 <body>
